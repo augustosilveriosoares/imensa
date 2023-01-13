@@ -1,0 +1,108 @@
+/**
+* Desenvolvido por Augusto Silverio Soares
+*   11/01/2023
+*/
+
+
+@font-face {
+    font-family: Elegance ;
+    src: url("/fonts/Elegance\ Signature\ Serif.otf") format("opentype"),url("/fonts/Elegance\ Signature\ Serif.ttf") format("truetype") ;
+}
+
+@font-face {
+    font-family: Metrolic;
+    src: url("fonts/Metrolic.otf") format("opentype"), url("fonts/Metrolic.ttf") format("truetype");
+}
+
+h3,h4,h5 {
+    font-family: Montserrat, sans-serif !important;
+}
+
+.nav-item{
+    font-family: Montserrat, sans-serif !important;
+    font-weight: bold;
+}
+
+.bg-imensa {
+    background-color: #2d2b2d;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/img/home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#empreendimento {
+    background-color: #2d2b2d;
+}
+#contato {
+    background-color: #2d2b2d;
+}
+
+footer{
+    background-color: #2d2b2d;
+}
+
+.elegance-font{
+    font-family: Elegance, 'Times New Roman', serif;
+    font-size: calc(6rem + .6vw)
+  
+}
+
+@media (max-width: 600px) {
+    .elegance-font{
+        font-size: calc(5rem + .6vw)
+      
+    }
+  }
+
+.metrolic-font{
+    font-family: Metrolic, 'Times New Roman', serif;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  
+}
+@media (max-width: 600px) {
+    .metrolic-font{
+       
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+      
+    }
+  }
+.montserrat-font{
+    font-family: Montserrat, sans-serif !important;
+}
+
+button{
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.2rem;
+    border: none !important;
+    outline: none !important;
+    border-radius: 1.5rem !important;
+
+   
+}
+
+button:hover{
+   
+    background-color: rgb(112, 112, 112)! important;
+
+   
+}
+
+.img-dark{
+    background-color: #2d2b2d;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+
